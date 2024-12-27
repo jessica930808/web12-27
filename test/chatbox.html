@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>購物網站</title>
+    
+    <!-- 引入自訂 CSS -->
+    <link rel="stylesheet" href="chatbox.css">
+</head>
+
+<body>
+
+    <body>
+    <header>
+        <nav>
+            <div>
+                <h1>SIMON</h1>
+            </div>
+            <div>
+                <a href="/test/test.html">首頁</a>
+                <a href="/test/all.html">全部商品</a>
+                <div class="dropdown">
+                    <a href="#">分類</a>
+                    <div class="dropdown-content">
+                        <a href="/test/clothes.html">上身</a>
+                        <a href="/test/pants.html">下身</a>
+                        <a href="/test/acc.html">配件</a>
+                    </div>
+                </div>
+                
+                <a href="#" id="cart-link">購物車</a>
+                <a href="/test/chatbox.html">客服中心</a>
+                <a href="#" id="login-logout-link">登入</a>
+    
+            </div>
+        </nav>
+    </header>
+
+    <div>
+        <img src="/image/background.png" alt="Banner Image" class="banner-image">
+        <a href="/test/all.html" class="shop-now-button">SHOP NOW</a>
+    </div>
+
+    <!-- 內容區域 -->
+    <div class="container mt-5">
+        <h2 class="text-center">客服中心 - 聊天機器人</h2>
+        <div class="chat-container">
+            <div class="messages" id="messages">
+                <!-- 這裡會顯示用戶與機器人的對話 -->
+            </div>
+            <div class="input-group mt-3">
+                <input type="text" id="userInput" class="form-control" placeholder="請輸入您的問題...">
+                <button class="btn btn-primary" id="sendBtn">送出</button>
+            </div>
+        </div>
+    </div>
+
+   
+    <!-- 引入自訂 JS -->
+    <script src="/test/chatbox.js"></script>
+</body>
+
+</html>

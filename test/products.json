@@ -1,0 +1,488 @@
+[
+    {
+        "id": 1,
+        "name": "韓國 馬海毛 字母 針織 毛衣",
+        "price": 1180,
+        "image": "/image/上衣1.png",
+        "description": "這款馬海毛針織毛衣，擁有舒適的質感和時尚的字母設計，讓你穿上不僅保暖，還能展現個性。",
+        "colors": [
+            "紅色",
+            "藍色",
+            "綠色"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "top"
+    },
+    {
+        "id": 2,
+        "name": "韓國 星型 做舊 落肩 薄長袖",
+        "price": 980,
+        "image": "/image/上衣2.png",
+        "description": "星型做舊設計，展現休閒與個性兼具的風格，適合日常穿搭。",
+        "colors": [
+            "黑色",
+            "白色"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "top"
+    },
+    {
+        "id": 3,
+        "name": "WBI Sun Protection Sheer",
+        "price": 780,
+        "image": "/image/上衣3.png",
+        "description": "輕薄透氣的防曬上衣，提供日常防護，適合戶外活動。",
+        "colors": [
+            "淺藍",
+            "粉紅",
+            "白色"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "top"
+    },
+    {
+        "id": 4,
+        "name": "霧感 漸變 暈染 寬鬆 帽T",
+        "price": 1280,
+        "image": "/image/上衣4.png",
+        "description": "寬鬆的帽T設計，結合漸變霧感染色，展現潮流風格。",
+        "colors": [
+            "灰色",
+            "藍色"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "top"
+    },
+    {
+        "id": 5,
+        "name": "韓國 寬鬆 日月 水洗 薄長袖",
+        "price": 1180,
+        "image": "/image/上衣5.png",
+        "description": "水洗效果打造復古感，日月設計增添神秘氣息。",
+        "colors": [
+            "灰色",
+            "白色"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "top"
+    },
+    {
+        "id": 6,
+        "name": "韓國 字母 天鵝絨 運動 薄長袖",
+        "price": 880,
+        "image": "/image/上衣6.png",
+        "description": "柔軟天鵝絨材質，搭配字母印花，適合日常休閒穿搭。",
+        "colors": [
+            "藍色",
+            "紅色"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "top"
+    },
+    {
+        "id": 7,
+        "name": "韓國 刷破 洞洞 針織 連帽 外套",
+        "price": 1380,
+        "image": "/image/上衣7.png",
+        "description": "刷破洞洞設計的針織外套，結合復古與現代感。",
+        "colors": [
+            "黑色",
+            "白色"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "top"
+    },
+    {
+        "id": 8,
+        "name": "韓國 光暈 染料 印花 簡約 短袖",
+        "price": 780,
+        "image": "/image/上衣8.png",
+        "description": "簡約設計短袖，光暈染料印花展現獨特個性。",
+        "colors": [
+            "灰色",
+            "白色"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "top"
+    },
+    {
+        "id": 9,
+        "name": "VINTAGE 水洗 做舊 薄長袖",
+        "price": 980,
+        "image": "/image/上衣9.png",
+        "description": "水洗效果與做舊設計，展現復古氣質。",
+        "colors": [
+            "灰色",
+            "藍色"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "top"
+    },
+    {
+        "id": 10,
+        "name": "吊染 漸層 洞洞 毛衣",
+        "price": 1180,
+        "image": "/image/上衣10.png",
+        "description": "這款吊染漸層毛衣，獨特的洞洞設計帶來透氣感，搭配漸層色調展現個性。",
+        "colors": [
+            "灰色",
+            "白色",
+            "黑色"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "top"
+    },
+    {
+        "id": 11,
+        "name": "商品 B",
+        "price": 780,
+        "image": "/image/上衣11.png",
+        "description": "破壞設計與華夫格紋結合，打造潮流復古風。",
+        "colors": [
+            "灰色",
+            "藍色"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "top"
+    },
+    {
+        "id": 12,
+        "name": "龐克 vintage 兩件式 薄長袖",
+        "price": 1080,
+        "image": "/image/上衣12.png",
+        "description": "兩件式設計，龐克風格與復古氣息相互結合，適合多層次搭配。",
+        "colors": [
+            "黑色",
+            "灰色"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "top"
+    },
+    {
+        "id": 13,
+        "name": "高級 街頭 痞帥 解構 闊腿 長褲",
+        "price": 780,
+        "image": "/image/下身1.png",
+        "description": "這款解構設計的闊腿長褲，呈現出街頭酷感，無論搭配運動鞋還是皮靴，皆能展現個人風格。",
+        "color": [
+            "深灰",
+            "黑色"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "bottom"
+    },
+    {
+        "id": 14,
+        "name": "韓國 側拼接 抽繩 氣球 牛仔褲",
+        "price": "$1580",
+        "image": "/image/下身2.png",
+        "description": "這款韓國設計的側拼接牛仔褲，抽繩設計更添隨性，適合日常搭配或休閒穿著。",
+        "color": [
+            "淺藍",
+            "白色"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "bottom"
+    },
+    {
+        "id": 15,
+        "name": "韓國 水洗 刷色 氣球 牛仔寬褲",
+        "price": "$1580",
+        "image": "/image/下身3.png",
+        "description": "水洗刷色處理讓這款牛仔寬褲更加獨特，輕鬆搭配任何上衣，展現時尚感。",
+        "color": [
+            "復古藍",
+            "淺灰"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "bottom"
+    },
+    {
+        "id": 16,
+        "name": "小眾 高腰 落地 闊腿 長褲",
+        "price": "$680",
+        "image": "/image/下身4.png",
+        "description": "極具設計感的高腰闊腿長褲，落地的剪裁與簡約的風格，讓整體造型更加優雅。",
+        "color": [
+            "黑色",
+            "深藍"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "bottom"
+    },
+    {
+        "id": 17,
+        "name": "復古 彎刀 垂墜 純色 流線 長褲",
+        "price": "$780",
+        "image": "/image/下身5.png",
+        "description": "流線型設計的復古長褲，彎刀剪裁讓穿著者更加修長，適合多種場合穿搭。",
+        "color": [
+            "深藍",
+            "灰色"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "bottom"
+    },
+    {
+        "id": 18,
+        "name": "灰霧 刷色 降落傘 落地 牛仔褲",
+        "price": "$1780",
+        "image": "/image/下身6.png",
+        "description": "這款灰霧刷色的降落傘牛仔褲，不僅舒適，還能展現出街頭的獨特魅力。",
+        "color": [
+            "灰色",
+            "淺藍"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "bottom"
+    },
+    {
+        "id": 19,
+        "name": "美式 街頭 刷色 潑漆 牛仔褲",
+        "price": "$680",
+        "image": "/image/下身7.png",
+        "description": "美式街頭風格的牛仔褲，刷色與潑漆設計賦予其復古感，讓你在人群中脫穎而出。",
+        "color": [
+            "藍色",
+            "白色"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "bottom"
+    },
+    {
+        "id": 20,
+        "name": "韓國 側扣 氣球 抽繩 棉褲",
+        "price": "$880",
+        "image": "/image/下身8.png",
+        "description": "這款韓國設計的抽繩棉褲，側扣細節和氣球褲型，帶來舒適感與時尚感兼具的穿著體驗。",
+        "color": [
+            "卡其色",
+            "米色"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "bottom"
+    },
+    {
+        "id": 21,
+        "name": "斜口袋 戰術 水洗 工作褲 長褲",
+        "price": "$780",
+        "image": "/image/下身9.png",
+        "description": "設計簡約且具功能性的戰術工作褲，搭配水洗效果，適合戶外或日常穿著。",
+        "color": [
+            "軍綠色",
+            "黑色"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "bottom"
+    },
+    {
+        "id": 22,
+        "name": "局部 刷髒 修身 俐落 牛仔褲",
+        "price": "$680",
+        "image": "/image/下身10.png",
+        "description": "這款牛仔褲擁有局部刷髒設計，讓你走在街頭時，展現無畏的個性與自信。",
+        "color": [
+            "藍黑色",
+            "淺藍"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "bottom"
+    },
+    {
+        "id": 23,
+        "name": "韓國 弧形剪裁 錐型 牛仔褲",
+        "price": "$1680",
+        "image": "/image/下身11.png",
+        "description": "韓國設計的弧形剪裁牛仔褲，錐型的設計展現修身效果，讓你擁有無可挑剔的身形。",
+        "color": [
+            "淺灰",
+            "深藍"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "bottom"
+    },
+    {
+        "id": 24,
+        "name": "側口袋 迷彩 七分 工作褲",
+        "price": "$680",
+        "image": "/image/下身12.png",
+        "description": "這款迷彩七分工作褲，側口袋設計方便實用，搭配簡單的T恤或襯衫，輕鬆展現休閒風格。",
+        "color": [
+            "迷彩",
+            "黑色"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "category": "bottom"
+    },
+    {
+        "id": 25,
+        "name": "雙圈 串接 純鋼 輕型 褲鏈",
+        "price": "$1180",
+        "image": "/image/配件1.png",
+        "description": "這款雙圈設計的褲鏈，結合了輕便的純鋼材質，時尚又耐用，讓你的造型瞬間升級。無論是搭配牛仔褲或休閒褲，都能輕鬆展現個人風格。",
+        "color": "圖片色",
+        "category": "accessories"
+    },
+    {
+        "id": 26,
+        "name": "流蘇 綴飾 實心 蛋型 純鋼 褲鏈",
+        "price": "$1380",
+        "image": "/image/配件2.png",
+        "description": "流蘇設計搭配蛋型造型，這款純鋼褲鏈注重細節，獨特的綴飾讓整體更具動感，絕對是打造街頭風格的最佳選擇。",
+        "color": "圖片色",
+        "category": "accessories"
+    },
+    {
+        "id": 27,
+        "name": "火山石 圓珠 拼接 純鋼 項鍊",
+        "price": "$1280",
+        "image": "/image/配件3.png",
+        "description": "這款火山石圓珠拼接的項鍊，獨特的紋理和材質搭配純鋼吊墜，為你的配件增添自然與都市感的完美平衡。",
+        "color": "圖片色",
+        "category": "accessories"
+    },
+    {
+        "id": 28,
+        "name": "淡水 珍珠 串接 純鋼 項鍊",
+        "price": "$1380",
+        "image": "/image/配件4.png",
+        "description": "精緻的淡水珍珠搭配純鋼鏈條，這款項鍊無論是日常佩戴還是搭配正式場合，都能展現你的優雅品味。",
+        "color": "圖片色",
+        "category": "accessories"
+    },
+    {
+        "id": 29,
+        "name": "個性 羽毛 髒銀 褲鏈 鑰匙圈",
+        "price": "$580",
+        "image": "/image/配件5.png",
+        "description": "這款個性十足的羽毛設計鑰匙圈，採用髒銀處理，呈現出獨特的復古感，絕對是街頭潮流愛好者的最愛。",
+        "color": "圖片色",
+        "category": "accessories"
+    },
+    {
+        "id": 30,
+        "name": "戶外 運動 機能 工裝 後背包",
+        "price": "$780",
+        "image": "/image/配件6.png",
+        "description": "專為戶外運動設計的機能後背包，結合耐用的材質和實用的多功能設計，讓你無論是遠足、露營還是城市探險，都能輕鬆攜帶必需品。",
+        "color": "黑色",
+        "category": "accessories"
+    },
+    {
+        "id": 31,
+        "name": "皮革 打火機套 吊飾 鑰匙圈",
+        "price": "$480",
+        "image": "/image/配件7.png",
+        "description": "這款精緻的皮革打火機套結合吊飾和鑰匙圈設計，不僅能保護打火機，還能為你的日常配件增添一抹酷感。高質感皮革搭配金屬細節，讓每一個細節都充滿魅力。",
+        "color": "圖片色",
+        "category": "accessories"
+    },
+    {
+        "id": 32,
+        "name": "Idealism Baseball Cap 尼龍 棒球帽",
+        "price": "$880",
+        "image": "/image/配件8.png",
+        "description": "這款Idealism品牌的棒球帽採用輕便尼龍材質，設計簡潔又不失時尚感。無論是日常穿搭還是運動風格，都是完美的選擇，為你的造型加分。",
+        "color": [
+            "灰色",
+            "黑色"
+        ],
+        "category": "accessories"
+    }
+]

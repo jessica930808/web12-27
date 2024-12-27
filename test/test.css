@@ -1,0 +1,408 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6c6c6c;
+    color: white;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* 可以根據需要調整背景顏色 */
+    z-index: 1000; /* 確保 header 顯示在其他內容之上 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 可選：為 header 增加陰影 */
+    color: fff;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* 調整內邊距 */
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.banner-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.banner-image {
+    width: 100%;
+    height: 900px;
+    object-fit: cover;
+}
+
+.shop-now-button {
+    position: absolute;
+    bottom: -33px; /* 距離div底部20px */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.shop-now-button:hover {
+    background-color: #bdbcbc;
+}
+
+.all-container h1,
+.tops-container h1,
+.bottoms-container h1,
+.accessories-container h1 {
+    text-align: center; /* 將文字置中 */
+    font-size: 60px; /* 放大字體 */
+    font-weight: bold; /* 讓字體更粗 */
+    margin: 100px 0; /* 增加上下間距 */
+    color: #f1c40f; /* 改變文字顏色為黃色（可選） */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
+
+.container {
+    margin: 20px;
+}
+
+#products {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.product {
+    flex: 0 0 calc(25% - 20px);
+    border: 1px solid #6c6c6c;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #6c6c6c;
+    color: white;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.add-to-cart {
+    background-color: #f1c40f;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.add-to-cart:hover {
+    background-color: #e1b30f;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #444;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 1000;
+    border-radius: 8px;
+    color: white;
+    width: 80%;
+    max-width: 500px;
+    /* 固定高度 */
+    height: 600px;
+    /* 如果內容超出，則顯示滾動條 */
+    overflow-y: auto;
+}
+
+.modal img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.modal button {
+    background-color: #f1c40f;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.modal button:hover {
+    background-color: #e1b30f;
+}
+
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #f1c40f;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    header nav {
+        flex-direction: column;
+    }
+
+    footer {
+        position: static;
+    }
+
+    .product {
+        flex: 0 0 calc(50% - 20px);
+        margin-bottom: 20px;
+            
+    }
+
+    .row {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .product {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+
+    .row {
+        margin-bottom: 20px;
+    }
+}
+
+#login-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #444;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 1000;
+    border-radius: 8px;
+    color: white;
+    width: 70%;
+    max-width: 400px;
+    height: auto;
+    
+    text-align: center;  /* 水平居中所有內容 */
+    
+}
+
+#login-modal label {
+    width: auto;
+    text-align: left;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #f1c40f;
+    display: inline-block;
+    margin-bottom: 5px;  /* 增加 label 和 input 之間的間距 */
+}
+
+#login-modal input {
+    width: 80%;  /* 設置寬度，根據父容器大小自動調整 */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;  /* 水平居中 */
+    margin-right: auto; /* 水平居中 */
+}
+
+
+
+#login-modal button {
+    background-color: #f1c40f;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#login-modal button:hover {
+    background-color: #e1b30f;
+}
+
+#login-error {
+    color: red;
+    margin-top: 10px;
+}
+
+.LoginButton{
+    display: flex;
+    flex-direction: row; /* 水平排列 */
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+    gap: 10px; /* 按钮之间的间距 */
+}
+
+
+
+
+/* 整體頁尾樣式 */
+.footer-wrapper {
+    background-color: #6c6c6c; /* 背景色 */
+    padding: 0px 0 0 50px; /* 頁尾內邊距 */
+    font-family: Arial, sans-serif; /* 字體 */
+    color: #fff; /* 文字顏色 */
+}
+
+/* 限定頁尾內部的區域 */
+.footer-grid-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 四等分的格子布局 */
+    gap: 20px;
+}
+
+/* 每個區塊的設計 */
+.footer-grid-item {
+    padding: 100px;
+}
+
+/* 標題文字 */
+.text-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* 連結樣式 */
+.footer-grid-item a {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 6px;
+    display: inline-block;
+}
+
+.footer-grid-item a:hover {
+    color: #e1b30f; /* 滑鼠懸停效果 */
+}
+
+/* 社群媒體按鈕樣式 */
+.footer-social-icon-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-social-icon-wrapper a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.footer-social-icon-wrapper a:hover {
+    background-color: #e1b30f; /* 社群媒體圖標懸停顏色 */
+}
+
+.footer-social-icon-wrapper svg {
+    fill: #fff;
+    width: 20px;
+    height: 20px;
+}
+
+/* 針對手機響應式調整 */
+@media (max-width: 768px) {
+    .footer-grid-items {
+        grid-template-columns: 1fr 1fr; /* 行為手機時使用兩欄布局 */
+    }
+}
