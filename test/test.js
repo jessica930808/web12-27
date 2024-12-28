@@ -77,7 +77,11 @@ function updateCart() {
     });
 
     totalPriceElement.textContent = `總價: $${total}`;
+
+    // 儲存購物車到 localStorage
+    localStorage.setItem('cart', JSON.stringify(cart));
 }
+
 
 function openCartModal() {
     if (isLoggedIn) {
@@ -91,6 +95,15 @@ function openCartModal() {
 function closeCartModal() {
     cartModalOverlay.style.display = 'none';
     cartModal.style.display = 'none';
+
+    if (cart.length === 0) {
+        alert('您的購物車裡沒商品');
+    } else {
+        // 假設結帳成功，清空購物車並顯示結帳成功訊息
+        cart.length = 0; // 清空購物車
+        updateCart(); // 更新購物車顯示
+        alert('結帳成功！謝謝您的購買');
+    }
 }
 
 function openProductModal(product) {
@@ -330,6 +343,7 @@ function login() {
             const customer = customers.find(cust => cust.username === username && cust.password === password);
             if (customer) {
                 isLoggedIn = true;
+                localStorage.setItem('isLoggedIn', 'true'); // 儲存登入狀態
                 loginLogoutLink.textContent = '登出';
                 closeLoginModal();
             } else {
@@ -340,8 +354,13 @@ function login() {
 
 function logout() {
     isLoggedIn = false;
+    localStorage.setItem('isLoggedIn', 'false'); // 更新儲存的狀態
     loginLogoutLink.textContent = '登入';
+    cart.length = 0; // 清空購物車
+    updateCart(); // 更新購物車顯示
 }
+
+
 
 loginLogoutLink.addEventListener('click', () => {
     if (isLoggedIn) {
@@ -361,12 +380,32 @@ closeProductModalButton.addEventListener('click', closeProductModal);
 productModalOverlay.addEventListener('click', closeProductModal);
 loginModalOverlay.addEventListener('click', closeLoginModal);
 
+document.addEventListener('DOMContentLoaded', () => {
 
-// 初始化載入商品
-loadProducts();
-loadTops();
-loadBottoms();
-loadAccessories();
+    // 檢查是否已儲存購物車內容
+    const storedCart = localStorage.getItem('cart');
+    if (storedCart) {
+        cart.push(...JSON.parse(storedCart)); // 將儲存的購物車內容加回 `cart`
+    }
+    updateCart();
+
+
+    const storedLoginStatus = localStorage.getItem('isLoggedIn');
+    if (storedLoginStatus === 'true') {
+        isLoggedIn = true;
+        loginLogoutLink.textContent = '登出';
+    } else {
+        isLoggedIn = false;
+        loginLogoutLink.textContent = '登入';
+    }
+
+    // 初始化商品內容
+    loadProducts();
+    loadTops();
+    loadBottoms();
+    loadAccessories();
+});
+
 
 // 問答AI部分
 const aiInput = document.getElementById('aiInput');
@@ -385,3 +424,5 @@ aiInput.addEventListener("input", function () {
         aiResponse.textContent = matched ? matched.answer : "很抱歉，無法回答您的問題。";
     }
 });
+
+
